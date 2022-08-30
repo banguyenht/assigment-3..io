@@ -58,15 +58,6 @@
   position: relative;
 }
 
-@media (min-width: 768px) {
-  #nav-bar > nav > div:first-child {
-    padding-right: 32px;
-  }
-
-  #nav-bar > nav > div:last-child {
-    padding-left: 32px;
-  }
-}
 .item1 {
   grid-area: goals;
 }
@@ -81,15 +72,6 @@
 }
 .item5 {
   grid-area: primary;
-}
-@media (min-width: 992px) {
-  #nav-bar > nav > div:first-child {
-    padding-right: 120px;
-  }
-
-  #nav-bar > nav > div:last-child {
-    padding-left: 120px;
-  }
 }
 
 #nav-bar a {
@@ -274,23 +256,6 @@ ul li p {
 }
 .item5 {
   grid-area: primary;
-}
-@media only screen and (min-width: 992px) {
-  .grid-container {
-    display: grid;
-    grid-template-areas:
-      "goals goals team timeline"
-      "scope scope primary timeline";
-    gap: 10px;
-    background-color: #2196f3;
-    padding: 10px;
-  }
-
-  .grid-container > div {
-    background-color: #eeeeee;
-    text-align: center;
-    padding: 20px 0;
-  }
 }
 
 .grid-container h1 {

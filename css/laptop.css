@@ -1,0 +1,25 @@
+/* style cho laptop */
+@media only screen and (min-width: 992px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "goals goals team timeline"
+      "scope scope primary timeline";
+    gap: 10px;
+    background-color: #2196f3;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 20px 0;
+  }
+  #nav-bar > nav > div:first-child {
+    padding-right: 120px;
+  }
+
+  #nav-bar > nav > div:last-child {
+    padding-left: 120px;
+  }
+}

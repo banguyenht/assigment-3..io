@@ -1,0 +1,10 @@
+/* style cho tablet */
+@media (min-width: 768px) {
+  #nav-bar > nav > div:first-child {
+    padding-right: 32px;
+  }
+
+  #nav-bar > nav > div:last-child {
+    padding-left: 32px;
+  }
+}
